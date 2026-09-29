@@ -1,0 +1,37 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Data & SQLite
+data/*.db
+data/*.db-journal
+data/*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Temp uploads & extraction
+uploads_temp/
+temp/
+*.zip
+*.tar.gz
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
